@@ -64,14 +64,47 @@
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>DrakenCC - &lt;a href=&quot;https://draken.ee&quot;&gt;https://draken.ee&lt;/a&gt;</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Created by: &lt;a href=&quot;https://github.com/hmikihth&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#00bcd4;&quot;&gt;https://github.com/hmikihth&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="minimumSize">
+         <size>
+          <width>40</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>40</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img height=30 src=&quot;:/Logo/DrakenLogo.png&quot;/&gt;&lt;a href=&quot;https://draken.ee&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>&lt;p&gt;DrakenCC - &lt;span style=&quot; text-decoration: underline; color:#00bcd4;&quot;&gt;https://draken.ee&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
@@ -120,6 +153,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="client.qrc"/>
+ </resources>
  <connections/>
 </ui>
